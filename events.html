@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events/CampusPulse</title>
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+    <h1 class="events-title">Campus Events</h1>
+    <div class="categories">
+        <button class="category active" onclick="filterEvents('all')">All</button>
+        <button class="category" onclick="filterEvents('sports')">Sports</button>
+        <button class="category" onclick="filterEvents('cultural')">Cultural</button>
+        <button class="category" onclick="filterEvents('clubs')">Clubs</button>
+        <button class="category" onclick="filterEvents('hackathons')">Hackathons</button>
+    </div>
+    <div class="event-container">
+        <div class="event-card sports" data-title="Football Match" data-description="Join the exciting football match happening this weekend!Don't miss out.">
+            <h3>Inter-College Football Match</h3>
+            <img alt="football match" src="https://www.agoda.com/wp-content/uploads/2024/09/football-match.jpg" class="event-img">
+            <p>Join the exciting football match happening this weekend!Don't miss out.</p>
+            <p>Date:13 December 2025,Saturday</p>
+            <p><em>Student Coordinators:  <br>Raghav Dwivedi :- 123456346<br>Kshitija Gupta :- 234645734</em></p>
+            <button class="details">View Details</button>
+        </div>
+        <div class="event-card cultural" data-title="Dance Club Auditions" data-description="Show your moves! Join the auditions for the campus Dance Club and showcase your talent.">
+            <h3>Dance Club Auditions</h3>
+            <img alt="dance auditions" src="https://image.shutterstock.com/z/stock-vector-dance-auditions-flyer-or-poster-design-760792939.jpg" class="event-img">
+            <p>Show your moves! Join the auditions for the campus Dance Club and showcase your talent. </p>
+            <p>Date:23 October 2025,Saturday</p>
+            <p><em>Student Coordinators: <br>Aastha Tiwari :- 342453675<br>Sagar Sharma :- 334657886</em></p>
+            <button class="details">View Details</button>
+        </div>
+        <div class="event-card clubs" data-title="GDGOC Recruitment" data-description="Become a part of the Google Developer Groups on Campus.Open roles across tech, design, content, and management teams.">
+            <h3>GDGOC Recruitment Drive</h3>
+            <img alt="gdgoc" src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/events/GDGOC_7y1cKwz.jpg" class="event-img">
+            <p>Become a part of the Google Developer Groups on Campus.Open roles across tech, design, content, and management teams.</p>
+            <p>Date:16 October 2025,Friday</p>
+            <p><em>Student Coordinators: <br>Sachin Rajput :- 234265785<br> Siddhi Lad :- 453785694</em></p>
+            <button class="details">View Details</button> 
+        </div>
+        <div class="event-card hackathons" data-title="CodeSpire 3.0" data-description="An Open innovation hackathon where ideas turn into impact.Solve real-world campus and community problems using Google technologies.">
+            <h3>CodeSpire 3.0</h3>
+            <img alt="codespire3.0" src="https://tse2.mm.bing.net/th/id/OIP.tn2VPrDC62fSFXR-xUsghAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" class="event-img">
+            <p>An Open innovation hackathon where ideas turn into impact.Solve real-world campus and community problems using Google technologies.</p>
+            <p>Date:30 December 2025,Monday</p>
+            <p><em>Student Coordinators: <br>Sneha Rai :- 975647882<br> Agastya Trivedi `:- 867884652</em></p> 
+            <button class="details">View Details</button>
+        </div>
+        <div class="event-card clubs" data-title="Web Development Workshop" data-description="A hands-on web development workshop conducted by the GDGOC Club.Learn basics of HTML,CSS and JavaScript with practical examples.">
+            <h3>Web Development Workshop</h3>
+            <img alt="webdev" src="https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.0_mul_h_sub_0.0_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/Frame%201_k79uclC.png" class="event-img">
+            <p>A hands-on web development workshop conducted by the GDGOC Club.Learn basics of HTML,CSS and JavaScript with practical examples.</p>
+            <p>Date:20 January 2026,Tuesday</p>
+            <p><em>Student Coordinators: <br>Priya Verma :- 547228502<br> Sanidhya Joshi:- 738562711</em></p> 
+            <button class="details">View Details</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>CampusPulse</h3>
+            <p>Your one-stop platform for campus events, clubs, and opportunities.</p>
+            <div class="footer-links">
+                <span>2025 CampusPulse</span>
+            </div>
+        </div>
+    </footer>
+    <script src="events.js"></script>
+</body>
+</html>
