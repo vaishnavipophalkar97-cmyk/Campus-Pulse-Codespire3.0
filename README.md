@@ -19,16 +19,16 @@ Google Gemini API is used to power the AI QueryBot. It enables intelligent, cont
   - Frontend: HTML5 , CSS3 , JavaScript
   - Backend: Node.js
   - AI Integaration: Google Gemini API
-  - Deployment: Render
+  - Deployment: Netlify
 ## MVP Status
   - Functional frontend wiith event listings and filtering of events.
   - QueryBot interface integrated.
   - Gemini API connected at backend.
   - Redy fordemo and further extension.
 ## Demo
-
-
+MVP Link: https://musical-brioche-fe1e22.netlify.app/
 ## Team 
-Team Name: InnovateX
-Team Member(Leader): Vaishnavi Pophalkar
-Hackathon: CodeSpire 3.0 -By GDGOC Acropolis Institute of Technology & Research, Indore
+ -Team Name: InnovateX
+ -Team Member(Leader): Vaishnavi Pophalkar
+ -Hackathon: CodeSpire 3.0
+      --By GDGOC Acropolis Institute of Technology & Research, Indore
